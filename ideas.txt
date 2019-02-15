@@ -1,0 +1,50 @@
+**** Game ideas:
+
+Whack a chicken:
+
+First iteration:
+ - Grid 3 x 3 (√)
+ - Use document ready Jquery (X)
+   > Had issues getting it to work, remove for now, will add once completed.
+ - Research let and const (√)
+ - Randomized function: (√)
+- Kip's popping up (from random functions above): ()
+    > Set time to random time √
+    > Set hole to random hole √
+    > Use class (use jquery)  add and remove class again to hide X
+    > Use css animations √
+ - Animated kip image popping up (√)
+
+Second Iteration:
+ - Function to start game (√)
+ - Keep score (√)
+    > Set global score variable √ 
+    > Use "isTrusted" event property to validate click: https://www.w3schools.com/jsref/event_istrusted.asp √
+ - Event handlers: ()
+    > onClick when chicken whacked √
+    > Start game on spacebar √
+    > Reset Game X
+    > Restart Game X
+
+Third Iteration:
+- Cursor change to slapping hand image x
+- Explode kip on click √
+- Countdown timer √
+- Add option to increase time X
+
+Fourth Iteration:
+- Change background √
+- Style wrapper √
+- Style icons √
+- Hand as cursor √
+- Add pop up modal level select √
+- Add slapping sound when kip whacked √
+
+
+Features for version 2:
+- Add-on ideas (to focus on once basic working project completed): ()
+   > Game over screen
+   > Collision, wolf running into game, if collided with chicken game over: https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection
+   > Shuffle
+   > Bonus chicken explode
+   > Store score, research

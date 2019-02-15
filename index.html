@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <title>Whack-a-Kip</title>
+</head>
+
+<body>
+
+  <div class="outside-wrapper">
+    <div class="totalScore">
+      <span class="centerAlign">YOUR SCORE:</span>
+      <span class="centerAlign" id="score">0</span>
+    </div>
+    <div class="level-selected centerAlign">Default level: Easy</div>
+    <div class="centerAlign">
+      <button id="chooseLevel" onclick="on()">Level Select</button>
+    </div>
+    <div id="overlay" onclick="off()">
+      <div class="levels centerAlignColumn">
+        <div class="centerAlignColumn">Choose your level:</div>
+        <div class="centerAlignColumn">
+          <button id="easy-btn">EASY</button>
+          <button id="medium-btn">MEDIUM</button>
+          <button id="hard-btn">HARD</button>
+        </div>
+      </div>
+    </div>
+    <div class="controls">
+      <span>Whack spacebar or click <button id="start">START</button></span>
+    </div>
+    <div id="notSupported"></div>
+    <div class="wrapper">
+      <div class="cage one">
+        <div class="kip hand"></div>
+      </div>
+      <div class="cage two">
+        <div class="kip hand"></div>
+      </div>
+      <div class="cage three">
+        <div class="kip hand"></div>
+      </div>
+      <div class="cage four">
+        <div class="kip hand"></div>
+      </div>
+      <div class="cage five">
+        <div class="kip hand"></div>
+      </div>
+      <div class="cage six">
+        <div class="kip hand"></div>
+      </div>
+      <div class="cage seven">
+        <div class="kip hand"></div>
+      </div>
+      <div class="cage eight">
+        <div class="kip hand"></div>
+      </div>
+      <div class="cage nine">
+        <div class="kip hand"></div>
+      </div>
+    </div>
+    <div>
+      <span class="centerAlign">TIMER:</span>
+      <span class="centerAlign" id="countdown">0</span>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
